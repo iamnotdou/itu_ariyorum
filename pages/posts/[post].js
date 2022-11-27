@@ -70,7 +70,7 @@ function post({ data }) {
 
 export default post;
 export async function getServerSideProps({ query }) {
-  const res = await fetch("https://ituariyorum.vercel.app/api/" + query.post);
+  const res = await fetch("https://itu-ariyorum.vercel.app/api/" + query.post);
   const data = await res.json();
   return {
     props: {
