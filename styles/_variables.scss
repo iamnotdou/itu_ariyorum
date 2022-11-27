@@ -1,0 +1,20 @@
+:root {
+  --bg: rgb(246, 246, 246);
+  --text: rgb(15, 15, 15);
+  --text2: rgb(29, 29, 29);
+  --base: #faaf1c;
+  --baseOpacity: #fab01c38;
+  --sh: rgba(246, 246, 246, 0);
+  --tag1: #525252;
+  --tag2: #eeeeee;
+}
+[data-theme="dark"] {
+  --sh: rgb(15, 15, 15);
+  --bg: rgb(15, 15, 15);
+  --text: #fff;
+  --base: #faaf1c;
+  --text2: rgb(121, 121, 121);
+  --tag1: #dfdfdf;
+  --tag2: #363636;
+}
+$width: 1200px;
