@@ -32,9 +32,11 @@ function index({ data, tags, spotify }) {
 
 export default index;
 export async function getServerSideProps() {
-  const { data } = await axios.get("https://ituariyorum.vercel.app/api/notion");
+  const { data } = await axios.get(
+    "https://itu-ariyorum-lara64hgl-wicedev.vercel.app/api/notion"
+  );
   const { data: tags } = await axios.get(
-    "https://ituariyorum.vercel.app/api/tags"
+    "https://itu-ariyorum-lara64hgl-wicedev.vercel.app/api/tags"
   );
 
   return {

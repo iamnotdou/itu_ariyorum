@@ -58,7 +58,7 @@ function etkinlikler({ etkinlikler }) {
 export default etkinlikler;
 export async function getServerSideProps() {
   const { data: etkinlikler } = await axios.get(
-    "https://ituariyorum.vercel.app/api/etkinlikler"
+    "https://itu-ariyorum-lara64hgl-wicedev.vercel.app/api/etkinlikler"
   );
   return {
     props: {
